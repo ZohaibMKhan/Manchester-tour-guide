@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Manchester</string>
+
+    <string name="category_popular">Popular</string>
+    <string name="category_food">Food</string>
+    <string name="category_hotels">Hotels</string>
+    <string name="category_parks">Parks</string>
+</resources>
