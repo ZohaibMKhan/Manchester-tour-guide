@@ -12,6 +12,7 @@ import android.support.v4.view.PagerAdapter;
 public class CategoryAdapter extends FragmentPagerAdapter {
 
     private Context mContext;
+
     public CategoryAdapter(Context context, FragmentManager fm) {
         super(fm);
         mContext = context;

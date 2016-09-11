@@ -7,7 +7,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -22,11 +21,14 @@ public class PopularFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.item_list, container, false);
 
-        /* TODO: Create data structure, add items to list, append to adapter, set adapter to listview */
+
         ArrayList<Place> places = new ArrayList<Place>();
-        places.add(new Place("Piccadilly Gardens", "Piccadilly Gardens", R.drawable.ic_piccadilly));
-        places.add(new Place("Old Trafford Football Stadium", "Old Trafford", R.drawable.ic_old_trafford));
-        places.add(new Place("Manchester Museum", "Oxford Road", R.drawable.ic_manchester_museum));
+        places.add(new Place(getString(R.string.piccadilly_gardens),
+                getString(R.string.piccadilly_gardens), R.drawable.ic_piccadilly));
+        places.add(new Place(getString(R.string.old_trafford_football_stadium),
+                getString(R.string.old_trafford), R.drawable.ic_old_trafford));
+        places.add(new Place(getString(R.string.manchester_museum),
+                getString(R.string.oxford_road), R.drawable.ic_manchester_museum));
 
         ListView list = (ListView) rootView.findViewById(R.id.list);
 

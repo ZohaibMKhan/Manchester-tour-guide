@@ -5,4 +5,26 @@
     <string name="category_food">Food</string>
     <string name="category_hotels">Hotels</string>
     <string name="category_parks">Parks</string>
+    <string name="piccadilly_gardens">Piccadilly Gardens</string>
+    <string name="old_trafford_football_stadium">Old Trafford Football Stadium</string>
+    <string name="old_trafford">Old Trafford</string>
+    <string name="manchester_museum">Manchester Museum</string>
+    <string name="oxford_road">Oxford Road</string>
+    <string name="curry_mile">Curry Mile</string>
+    <string name="Wilmslow_road_rusholme">Wilmslow Road, Rusholme</string>
+    <string name="mylahore">MyLahore</string>
+    <string name="archies">Archies</string>
+    <string name="oxford_road_university_of_manchester">Oxford Road, University of Manchester</string>
+    <string name="hilton_hotel">Hilton Hotel</string>
+    <string name="deansgate">Deansgate</string>
+    <string name="hotel_gotham">Hotel Gotham</string>
+    <string name="king_street">King Street</string>
+    <string name="lowry_hotel">The Lowry Hotel</string>
+    <string name="salford">Salford</string>
+    <string name="heaton_park">Heaton Park</string>
+    <string name="prestwich">Prestwich</string>
+    <string name="queens_park">Queens Park</string>
+    <string name="heaton">Heaton</string>
+    <string name="wythenshawe_park">Wythenshawe Park</string>
+    <string name="wythenshawe">Wythenshawe</string>
 </resources>

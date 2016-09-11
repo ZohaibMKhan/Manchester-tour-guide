@@ -12,9 +12,9 @@ public class Place {
     private int imageResourceId = NO_IMAGE_SET;
     private static final int NO_IMAGE_SET = -1;
 
-    public Place(String name, String address, int imageResourceId) {
-        this.name = name;
-        this.address = address;
+    public Place(String nameResourceId, String addressResourceId, int imageResourceId) {
+        this.name = nameResourceId;
+        this.address = addressResourceId;
         this.imageResourceId = imageResourceId;
     }
 
